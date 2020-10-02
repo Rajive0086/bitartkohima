@@ -1,0 +1,126 @@
+/*
+.top-nav-item
+{
+
+    display: inline-block;
+
+}
+.logo
+{
+    min-height:4em;
+
+}
+.nav-li-right
+{
+    max-height: 1.75em;
+
+}
+.container-section
+{
+    padding: 50px 100px;
+    padding-top: -40px;
+
+}
+
+@media (max-width:  768px)
+{
+    .container-section
+    {
+        padding: 20px;
+        padding-top: -80px;
+
+    }
+}
+.borderless
+{
+    box-shadow: none;
+}
+
+.content-align-center
+{
+    text-align: center;
+    color:white;
+}
+
+.nav-div
+{
+    width:100%;
+    position: fixed;
+
+    z-index: 1000;
+    background-color: white;
+}
+.hero
+{
+
+    background-size: cover;
+    background-position: center;
+
+}
+.top-marginless
+{
+    margin-top: -15px;
+}
+.divider-top-marginless
+{
+    margin-top: -2px;
+}
+#ic-facebook
+{
+
+    color: blue;
+
+    font-size: 1.5em;
+
+}
+#ic-google
+{
+    color: red;
+
+    font-size: 1.5em;
+}
+/* #ic
+{
+    width:28px; height:36px; line-height:28px; font-size:18px; text-align:center;
+} */
+
+#is-vcentered
+{
+    -webkit-box-align: center;
+     -ms-flex-align: center;
+        align-items: center;
+}
+#backtotop{color:#FFFFFF; background-color:#00CCBD;}
+#backtotop{z-index:999; display:inline-block; position:fixed; visibility:hidden; bottom:20px; right:20px; width:36px; height:36px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
+
+.header-fixed {
+
+}
+
+.header-hidden {
+
+    position: fixed;
+}
+
+
+  /*about section*/
+      .section-heading {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 6em;
+      }
+
+    #about p{
+      margin-bottom:14px;
+      color:#000;
+      font-family: "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 1.1rem;
+    }
+    #about .subtitle{
+      font-size:1.8rem;
+      font-weight:700;
+      font-family: sans-serif;
+    }
+    #about .title{
+      font-weight:300;
+    } */

@@ -1,0 +1,87 @@
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column 
+{
+	flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+.is-desktop
+	{
+		padding:50px 200px;
+	}
+	.in-mobile {
+		display:none;
+	}
+@media (max-width: 1024px) 
+{
+	.desktop {
+		display: none;
+	}
+	.in-mobile {
+		display:block;
+	}
+	.navbar-menu
+{
+  background-color:black;
+  height:100% !important;
+}
+
+}
+@media (max-width:600px) 
+{
+	.desktop {
+		display: none;
+	}
+
+	.in-mobile {
+		display: block;
+	}
+	
+	
+}
+.header-hidden {
+	       
+	position: fixed;
+	background-color: black !important;
+
+}
+.menu-text
+{
+	color:white !important;
+}
+.active
+{
+	font-weight: bold;
+	border-bottom:2px solid white;
+}
+.faico{margin:0; padding:0; list-style:none; }
+.faico li{display:inline-block; margin:8px 5px 0 0; padding:20%; line-height:normal;}
+.faico li:last-child{margin-right:0;}
+.faico{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;align-content: center;}
+
+.faico a{color:#FFFFFF; background-color:#272727;}
+
+.faicon-dribble:hover{background-color:#EA4C89;}
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-google-plus:hover{background-color:#DB4A39;}
+.faicon-linkedin:hover{background-color:#0E76A8;}
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-vk:hover{background-color:#4E658E;}
+.faicon-map:hover{background-color: hotpink}
+
+.footer-mobile
+{
+
+}
